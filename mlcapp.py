@@ -186,7 +186,7 @@ def main():
 
     # Display the image in the sidebar
     image = Image.open("mlclogo.png")
-    st.sidebar.image(image, use_column_width=True)
+    st.sidebar.image(image, use_container_width=True)
 
     # Sidebar navigation
     st.sidebar.title("Navigation")
